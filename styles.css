@@ -1,0 +1,137 @@
+*
+{
+font-family:garamond;
+}
+
+html 
+{
+  margin: 0;
+  padding: 0;
+  background: url("https://businesstoday.co.ke/wp-content/uploads/2017/09/Safaricom.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+div
+{
+  flex-wrap:wrap;
+}
+
+img 
+{
+  height: 200;
+  width: 150px;
+  margin: 0 0 0 0;
+  box-sizing: border-box;
+}
+
+.welcome
+{
+  margin: 20px auto 0 auto;
+  font-family: cursive;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+h1 
+{
+  margin: 0;
+  -webkit-margin-before: 0;
+  color: rgb(0, 255, 0);
+  text-shadow: 2px 2px 5px blue;
+  background-color:rgb(100,150,50);
+}
+
+h3
+{
+  color:rgb(0,0,220);
+}
+
+#content-1 a:hover 
+{
+  color: rgb(0, 0, 255);
+  font-weight: 900;
+}
+
+body 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto 50px auto;
+  width: 70%;
+}
+
+main 
+{
+  background-color: rgba(232, 235, 239, 0.3);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header
+{
+  height: 200px;
+  background-color: rgb(212, 214, 216);
+  display: flex;
+}
+
+.column 
+{
+  padding: 20px;
+  margin: 10px 10px 10px 0;
+}
+
+#content-1 
+{
+  background-color: rgb(169, 241, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#content-2
+{
+  background-color: rgb(213, 183, 255);
+  flex: 2;
+}
+
+#content-3
+{
+  background-color: rgb(169, 241, 249);
+  flex: 1;
+  margin-right: 0;
+}
+
+footer
+{
+  background-color: rgb(0, 255, 100);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+li
+{
+  font-family:italic;
+  color:rgb(50,0,50);
+}
+
+table,td,th{
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 400px;
+}
+th{
+  background-color:rgb(50,150,250);
+  color: white;
+}
+
+h4 
+{
+  text-decoration: underline;
+  color:green;
+}
